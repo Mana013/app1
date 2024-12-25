@@ -27,8 +27,8 @@ export function Content(){
 
 export const Footer = () => {
     return(
-        <div style={{testAlign:'center'}}>
-            &copy;{new Date().getFullYeat()} All rights reserved
+        <div style={{textAlign:'center'}}>
+            &copy;{new Date().getFullYear()} All rights reserved
         </div>
     )
 }
