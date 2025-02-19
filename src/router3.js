@@ -19,9 +19,9 @@ export default function router3() {
                 <NavLink to='/product'
                     className={({isActive})=>isActive?"active_menu":"menu"}>Products</NavLink>-&nbsp;
                 <NavLink to='/member'
-                    className={({isActive})=>isActive?"active_menu":"menu"}>member</NavLink>-&nbsp;
+                    className={({isActive})=>isActive?"active_menu":"menu"}>Member</NavLink>-&nbsp;
                 <NavLink to='/contact'
-                    className={({isActive})=>isActive?"active_menu":"menu"}>contact</NavLink>
+                    className={({isActive})=>isActive?"active_menu":"menu"}>Contact Us</NavLink>
 
             </nav>
             <Routes style={{mardin: '20px'}}>
