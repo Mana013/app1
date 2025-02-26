@@ -6,7 +6,7 @@ import FormSelectFile from './form-select-file';
 
 function App() {
   
-  return <FormSelectFile/>
+  return  <FormSelectFile/>
 }
 
 export default App;
