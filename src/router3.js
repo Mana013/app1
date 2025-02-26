@@ -24,7 +24,7 @@ export default function router3() {
                     className={({isActive})=>isActive?"active_menu":"menu"}>Contact Us</NavLink>
 
             </nav>
-            <Routes style={{mardin: '20px'}}>
+            <Routes style={{margin: '20px'}}>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/product" element={<Products/>}/>
                 <Route path="/member" Component={Member}/>
