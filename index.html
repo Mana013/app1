@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านคาราโอเกะ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    .box {
+      border: 2px solid black;
+      width: 400px;
+      padding: 10px;
+      margin: 0 auto;
+    }
+
+    .section {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    input[type="number"] {
+      width: 60px;
+    }
+
+    #total {
+      width: 120px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h4>ร้านคาราโอเกะ</h4>
+
+    <div class="section">
+      <input type="radio" name="rate" value="120" id="noCard" checked>
+      <label for="noCard">ไม่มีบัตรนักศึกษา</label><br>
+      ชั่วโมงละ 120 บาท จำนวน
+      <input type="number" id="hours1"> ชั่วโมง
+    </div>
+
+    <div class="section">
+      <input type="radio" name="rate" value="80" id="hasCard">
+      <label for="hasCard">มีบัตรนักศึกษา</label><br>
+      ชั่วโมงละ 80 บาท จำนวน
+      <input type="number" id="hours2"> ชั่วโมง
+    </div>
+
+    <div class="section">
+      <button onclick="calculate()">คำนวณ</button>
+    </div>
+
+    <div class="section">
+      รวมเป็นเงินทั้งสิ้น =
+      <input type="text" id="total" readonly> บาท
+    </div>
+  </div>
+
+  <script src="karaoke.js"></script>
+</body>
+</html>
