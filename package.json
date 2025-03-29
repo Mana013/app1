@@ -1,16 +1,25 @@
 {
   "name": "app1",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Your Nam",
+  "license": "MIT",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mana013/app1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mana013/app1/issues"
+  },
+  "homepage": "https://github.com/Mana013/app1#readme",
+  "description": ""
 }
